@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "quantity": 5,
+        "name": "Bed",
+        "img": "https://i.ibb.co/d6xjJfQ/bed.jpg",
+        "price": "$65,000",
+        "description": "Ford Motor Company is an automobile company. The Company designs, manufactures, markets, and services a full line of electrified.",
+        "supplierName": "Lorem Cox"
+    },
+    {
+        "id": 2,
+        "quantity": 12,
+        "name": "Chair",
+        "img": "https://i.ibb.co/kxyzzVw/chair.jpg",
+        "price": "$90,700",
+        "description": "Automobili Lamborghini S.p.A. (Italian pronunciation: is an Italian brand and manufacturer of luxury sports cars and ubsidiary Audi.",
+        "supplierName": "Pilan rox"
+    },
+    {
+        "id": 3,
+        "quantity": 25,
+        "name": "CupBoard",
+        "img": "https://i.ibb.co/XD2trVD/cupboard.jpg",
+        "price": "$8,900",
+        "description": "Tesla was founded in 2003 by a group of engineers who wanted to compromise to drive vehicles can be better, products.",
+        "supplierName": "Elon Musk"
+    },
+    {
+        "id": 4,
+        "quantity": 15,
+        "name": "Desser",
+        "img": "https://i.ibb.co/7CScZ09/desser.jpg",
+        "price": "$40,700",
+        "description": "Toyota has car models that offer something for everyone. Whether youre looking for a compact car for commuting to work,can rely on Toyota.",
+        "supplierName": "MR. Johnson"
+    },
+    {
+        "id": 5,
+        "quantity": 7,
+        "name": "Sofa",
+        "img": "https://i.ibb.co/svSZTZk/sofa.jpg",
+        "price": "$35,900",
+        "description": "Volkswagen Group, also called Volkswagen AG, major this is also many specific character. German automobile manufacturer, founded Wolfsburg, Germany.",
+        "supplierName": "Md Bazlul"
+    },
+    {
+        "id": 6,
+        "quantity": 17,
+        "name": "Table",
+        "img": "https://i.ibb.co/Z2t346P/table.jpg",
+        "price": "$90,000",
+        "description": "Ferraris are what dreams are made of. Fast, sexy,this is quite important key words so that and highly exclusive, most people.",
+        "supplierName": "Mohammad Ripon"
+    }
+]
