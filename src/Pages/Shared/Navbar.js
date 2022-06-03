@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Navbar = () => {
 
     const menuItems = <>
         <li className='text-amber-300 font-bold'><Link to="/">Home</Link></li>
         {/* <li><Link to="/purchase">Purchase</Link></li> */}
-        <li className='text-amber-300 font-bold'><Link to="/blogs">Blogs</Link></li>
+        <li className='text-amber-300 font-bold'><Link to="/blogs">Blog</Link></li>
         <li className='text-amber-300 font-bold'><Link to="/myPortfolio">My Portfolio</Link></li>
         <li className='text-amber-300 font-bold'><Link to="/dashboard">DashBoard</Link></li>
         <li className='text-amber-300 font-bold'><Link to="/login">Login</Link></li>
@@ -23,10 +24,11 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <a href=' ' className="btn btn-ghost normal-case text-2xl font-bold text-amber-300">Furniture Mart</a>
+                {/* <img  src={logo} alt="" /> */}
+                <a href=' ' className="btn btn-ghost normal-case text-2xl font-bold ml-24 text-amber-300">Furniture Mart</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal p-0">
+                <ul className="menu menu-horizontal p-0 ml-96">
                     {menuItems}
                 </ul>
             </div>
