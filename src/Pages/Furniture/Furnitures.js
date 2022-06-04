@@ -12,14 +12,14 @@ const Furnitures = () => {
 
     return (
         <>
-            <div className='w-full bg-gray-600 absolute'>
+            <div className=' bg-gray-600 py-2'>
             
-                <h2 className='text-2xl font-extrabold lg:text-4xl lg:font-extrabold text-orange-400 mt-12 text-center'>Furniture Gallery</h2>
+                <h2 className='text-2xl font-extrabold lg:text-4xl lg:font-bold lg:ml-10  mt-12  text-white lg:mb-8'>Choose From<span className='text-secondary'> Our Gallery</span></h2>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mt-12 px-12 mb-16'>
 
                     {
-                        furnitures.slice(0, 4).map(furniture => <Furniture
+                        furnitures.map(furniture => <Furniture
                             key={furniture._id}
                             furniture={furniture}
                         ></Furniture>)

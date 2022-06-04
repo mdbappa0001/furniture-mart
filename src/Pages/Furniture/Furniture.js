@@ -14,7 +14,7 @@ const Furniture = ({ furniture }) => {
                         <h2 className='font-bold'>Supplier Name : <small className='text-red-500'>{supplierName}</small></h2>
                         <small className='font-bold'><i>{description}</i></small>
                         <div class="card-actions justify-end">
-                            <button className="btn btn-primary mt-2 text-black font-bold uppercase bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:text-black hover:from-pink-500 hover:to-yellow-500">See Details</button>
+                            <button className="btn btn-sm btn-primary mt-2 text-black font-bold uppercase bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:text-black hover:from-pink-500 hover:to-yellow-500">See Details</button>
                         </div>
                     </div>
                 </div>
