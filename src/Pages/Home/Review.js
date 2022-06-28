@@ -20,13 +20,13 @@ const Review = () => {
                             <div className="card-body">
                                 <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
                             </div>
-                            <div class="rating">
+                            <div className="rating">
                                 <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                             </div>
                             <div className='flex items-center'>
                                 <div className="avatar px-8 py-5">
@@ -49,13 +49,13 @@ const Review = () => {
                             <div className="card-body">
                                 <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
                             </div>
-                            <div class="rating">
+                            <div className="rating">
                                 <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                             </div>
                             <div className='flex items-center'>
                                 <div className="avatar px-8 py-5">
@@ -78,13 +78,13 @@ const Review = () => {
                             <div className="card-body">
                                 <small className='font-bold'>This is the best collection i have ever seen.Buying this product i have enjoyed a lot.I hope you will also try it and enjoy a lot.</small>
                             </div>
-                            <div class="rating">
+                            <div className="rating">
                                 <span className='font-bold text-xl ml-8 mr-3'>Rating : </span>
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" className="mask mask-star-2 bg-orange-400" />
                             </div>
                             <div className='flex items-center'>
                                 <div className="avatar px-8 py-5">

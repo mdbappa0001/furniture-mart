@@ -14,16 +14,16 @@ const ContactUs = () => {
                         <div className='lg:block text-2xl font-bold text-yellow-400 mt-24'>Contact Us</div>
                         <div className='text-3xl  text-white mb-16 mt-2'>Stay Connected With Us</div>
                         <div>
-                        <input type="email" placeholder="Email Address" class="input input-bordered input-error w-96 mb-6" /><br />
-                        <input type="text" placeholder="Subject" class="input input-bordered input-error w-96 mb-6" /><br />
-                        <textarea type="text" placeholder="Your Message" rows="6" class="input input-bordered input-error w-96 mb-6 h-48" /><br />
-                        <button className='btn bg-lime-400 text-black hover:bg-orange-600 hover:text-white ml-28'>Contact Submit</button>
+                            <input type="email" placeholder="Email Address" className="input input-bordered input-error w-96 mb-6" /><br />
+                            <input type="text" placeholder="Subject" className="input input-bordered input-error w-96 mb-6" /><br />
+                            <textarea type="text" placeholder="Your Message" rows="6" className="input input-bordered input-error w-96 mb-6 h-48" /><br />
+                            <button className='btn bg-lime-400 text-black hover:bg-orange-600 hover:text-white ml-28'>Contact Submit</button>
                         </div>
                     </div>
                     <img className='w-full h-1/2 min-h-screen' src={background} alt="" />
                 </div>
 
-</div>
+            </div>
         </>
     );
 };
