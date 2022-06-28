@@ -7,6 +7,7 @@ const Navbar = () => {
     const menuItems = <>
         <li className='text-amber-300 font-bold'><Link to="/">Home</Link></li>
         {/* <li><Link to="/purchase">Purchase</Link></li> */}
+        <li className='text-amber-300 font-bold'><Link to="/furniture">Furniture</Link></li>
         <li className='text-amber-300 font-bold'><Link to="/blogs">Blog</Link></li>
         <li className='text-amber-300 font-bold'><Link to="/myPortfolio">My Portfolio</Link></li>
         <li className='text-amber-300 font-bold'><Link to="/dashboard">DashBoard</Link></li>
@@ -14,7 +15,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar bg-gray-700">
+        <div className="navbar bg-gray-700 sticky top-0 z-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabindex="0" className="btn btn-ghost lg:hidden">

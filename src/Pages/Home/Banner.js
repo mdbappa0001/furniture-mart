@@ -28,7 +28,7 @@ const Banner = () => {
                     <div className='text-2xl pl-4 md:text-4xl lg:text-5xl font-bold text-white'>Top Furniture manufacturer Company in the World</div>
                     <div className='py-5 text-white pl-6'>We Need Help on Tools Importing from Us? Furniture Mart Recommend You The Best Furniture and Tools Shippipment</div>
                     <a href="#contact">
-                    <button className='btn bg-lime-500 text-black hover:bg-lime-700 hover:text-white'>Get Started Your Business With Us</button>
+                    <button id='contactUs' className='btn bg-lime-500 text-black hover:bg-lime-700 hover:text-white'>Get Started Your Business With Us</button>
                     </a>
                 </div>
                     <img src={banner2} class="w-full" alt='' />
@@ -43,7 +43,7 @@ const Banner = () => {
                     <div className='text-2xl pl-4 md:text-4xl lg:text-5xl font-bold text-white'>Top Furniture manufacturer Company in the World</div>
                     <div className='py-5 text-white pl-6'>We Need Help on Tools Importing from Us? Furniture Mart Recommend You The Best Furniture and Tools Shippipment</div>
                     <a href="#contact">
-                    <button className='btn bg-lime-500 text-black hover:bg-lime-700 hover:text-white'>Get Started Your Business With Us</button>
+                    <button id='contactUs' className='btn bg-lime-500 text-black hover:bg-lime-700 hover:text-white'>Get Started Your Business With Us</button>
                     </a>
                 </div>
                     <img src={banner3} class="w-full" alt='' />

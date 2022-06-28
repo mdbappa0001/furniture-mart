@@ -5,7 +5,7 @@ const ContactUs = () => {
     return (
         <>
 
-            <div>
+            <div id='contactUs'>
 
 
                 <div className='w-full relative'>

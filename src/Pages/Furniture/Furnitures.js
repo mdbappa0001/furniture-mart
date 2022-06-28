@@ -5,7 +5,7 @@ import Furniture from './Furniture';
 const Furnitures = () => {
     const [furnitures, setFurnitures] = useState([]);
     useEffect(() => {
-        fetch('furniture.json')
+        fetch('http://localhost:5000/service')
             .then(res => res.json())
             .then(data => setFurnitures(data))
     }, [])
