@@ -29,7 +29,7 @@ const SignUp = () => {
         signInError = <p className='text-red-700'><small>{error?.message || gError?.message || updateError?.message}</small></p>
     }
 
-    if (gUser) {
+    if (user || gUser) {
         console.log(gUser);
     }
 
