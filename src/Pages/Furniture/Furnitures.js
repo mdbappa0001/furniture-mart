@@ -6,7 +6,7 @@ import Furniture from './Furniture';
 const Furnitures = () => {
     const [furnitures, setFurnitures] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/service')
+        fetch('https://delicat-saucisson-56529.herokuapp.com/service')
             .then(res => res.json())
             .then(data => setFurnitures(data))
     }, [])
@@ -29,10 +29,10 @@ const Furnitures = () => {
                 </div>
 
                 <div className='text-center'>
-                        <Link to={`/manage-items`} className="inline-flex rounded items-center py-3 px-3 mb-12 font-bold text-center bg-white hover:bg-blue-700 focus:ring-4 hover:text-white focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                            Manage Inventory
-                        </Link>
-                    </div>
+                    <Link to={`/manage-items`} className="inline-flex rounded items-center py-3 px-3 mb-12 font-bold text-center bg-white hover:bg-blue-700 focus:ring-4 hover:text-white focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Manage Inventory
+                    </Link>
+                </div>
 
             </div>
 

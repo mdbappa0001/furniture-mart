@@ -1,4 +1,4 @@
-# [Furniture Mart](https://cafena-shop.web.app)
+# [Furniture Mart](https://furniture-mart-94ede.web.app/)
 
 This is a Furniture Manufacture website.
 
@@ -46,7 +46,7 @@ This is a Furniture Manufacture website.
 - mongodb
 
 ## Live Link
-https://cafena-shop.web.app
+https://furniture-mart-94ede.web.app/
 
 
 # Website Demo

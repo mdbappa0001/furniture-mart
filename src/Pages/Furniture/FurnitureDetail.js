@@ -8,7 +8,7 @@ const FurnitureDetail = () => {
     const { name, img, price, description, quantity, supplierName } = furniture;
 
     const [furnitureQuantity, setFurnitureQuantity] = useState(quantity)
-    const url = `http://localhost:5000/service/${furnitureId}`
+    const url = `https://delicat-saucisson-56529.herokuapp.com/service/${furnitureId}`
     useEffect(() => {
         axios.get(url)
             .then(res => {
@@ -18,49 +18,49 @@ const FurnitureDetail = () => {
 
 
 
- //  data 
- const handelUpdateStock = e => {
-    e.preventDefault();
-    const supplierInput = e.target.quantity.value;
-    const newQuantityTotal = parseInt(quantity) + parseInt(supplierInput)
-    const newQuantity = { newQuantityTotal }
-    const putUrl = `http://localhost:5000/update/${furnitureId}`
-    fetch(putUrl, {
-        method: "PUT",
-        headers: {
-            'content-type': 'application/json'
-        },
-        body: JSON.stringify(newQuantity)
-    }).then(res => res.json())
-        .then(data => {
-            if (data.acknowledged === true) {
-                setFurnitureQuantity(newQuantityTotal);
-                // Toast.success("SuccessFully Added")
-                e.target.reset()
-            }
-        })
-}
+    //  data 
+    const handelUpdateStock = e => {
+        e.preventDefault();
+        const supplierInput = e.target.quantity.value;
+        const newQuantityTotal = parseInt(quantity) + parseInt(supplierInput)
+        const newQuantity = { newQuantityTotal }
+        const putUrl = `https://delicat-saucisson-56529.herokuapp.com/update/${furnitureId}`
+        fetch(putUrl, {
+            method: "PUT",
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(newQuantity)
+        }).then(res => res.json())
+            .then(data => {
+                if (data.acknowledged === true) {
+                    setFurnitureQuantity(newQuantityTotal);
+                    // Toast.success("SuccessFully Added")
+                    e.target.reset()
+                }
+            })
+    }
 
-// deliver a book ---------------------------
+    // deliver a book ---------------------------
 
-const deliveredBook = () => {
-    const newQuantityTotal = parseInt(quantity) - 1
-    const newQuantity = { newQuantityTotal }
-    const putUrl = `http://localhost:5000/update/${furnitureId}`
-    fetch(putUrl, {
-        method: "PUT",
-        headers: {
-            'content-type': 'application/json'
-        },
-        body: JSON.stringify(newQuantity)
-    }).then(res => res.json())
-        .then(data => {
-            if (data.acknowledged === true) {
-                setFurnitureQuantity(newQuantityTotal);
-                // Toast.success("Product Delivered !!")
-            }
-        })
-}
+    const deliveredBook = () => {
+        const newQuantityTotal = parseInt(quantity) - 1
+        const newQuantity = { newQuantityTotal }
+        const putUrl = `https://delicat-saucisson-56529.herokuapp.com/update/${furnitureId}`
+        fetch(putUrl, {
+            method: "PUT",
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(newQuantity)
+        }).then(res => res.json())
+            .then(data => {
+                if (data.acknowledged === true) {
+                    setFurnitureQuantity(newQuantityTotal);
+                    // Toast.success("Product Delivered !!")
+                }
+            })
+    }
 
 
 
