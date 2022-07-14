@@ -1,7 +1,9 @@
 import React from 'react';
+import Footer from '../Home/Footer';
 
 const Blog = () => {
     return (
+       <>
         <div className='mx-10'>
             <h1 className='text-4xl font-medium text-center my-10'><span className='relative my-underline'>Blog</span></h1>
             <div>
@@ -55,6 +57,8 @@ const Blog = () => {
                 </p>
             </div>
         </div>
+        <Footer></Footer>
+       </>
     );
 };
 

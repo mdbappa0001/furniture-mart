@@ -3,6 +3,7 @@ import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { toast } from 'react-toastify';
 import auth from '../../firebase.init';
+import Footer from '../Home/Footer';
 import Loading from '../Shared/Loading';
 
 const AddItems = () => {
@@ -47,6 +48,7 @@ const AddItems = () => {
 
     }
     return (
+        <>
         <div className='my-10'>
             <div className='text-center '>
                 <h1 className=' text-[#00307E] font-extrabold text-4xl mb-2 inline-block relative my-underline'>Add New Furniture</h1>
@@ -94,6 +96,8 @@ const AddItems = () => {
 
             </div>
         </div>
+        <Footer></Footer>
+        </>
     );
 };
 

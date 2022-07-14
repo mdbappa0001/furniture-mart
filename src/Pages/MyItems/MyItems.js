@@ -4,6 +4,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link, Navigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import auth from '../../firebase.init';
+import Footer from '../Home/Footer';
 import Tr from '../ManageItems/Tr';
 import Loading from '../Shared/Loading';
 
@@ -63,6 +64,7 @@ const MyItems = () => {
     }
 
     return (
+        <>
         <div className='flex justify-center min-h-[90vh]'>
             <div className='md:w-1/2 text-center'>
                 <h1 className='text-center text-[#00307E] font-extrabold inline relative my-underline text-4xl mt-5'>My Furniture</h1>
@@ -97,6 +99,8 @@ const MyItems = () => {
                 </table>
             </div>
         </div>
+        <Footer></Footer>
+        </>
     );
 };
 

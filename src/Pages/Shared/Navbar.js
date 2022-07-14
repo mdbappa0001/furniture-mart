@@ -17,7 +17,6 @@ const Navbar = () => {
         <li className='text-amber-300 font-bold'><Link to="/">Home</Link></li>
         <li className='text-amber-300 font-bold'><Link to="/furniture">Furniture</Link></li>
         <li className='text-amber-300 font-bold'><Link to="/blogs">Blog</Link></li>
-        <li className='text-amber-300 font-bold'><Link to="/myPortfolio">My Portfolio</Link></li>
         
         <li className='text-amber-300 font-bold'>{user &&  
          <li className='text-amber-300 font-bold'><Link to="/add-items">Add Items</Link></li>}
