@@ -11,6 +11,7 @@ import Navbar from './Pages/Shared/Navbar';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ManageItems from './Pages/ManageItems/ManageItems';
+import AddItems from './Pages/AddItems/AddItems';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         }></Route>
 
         <Route path='/manage-items' element={<ManageItems></ManageItems>}></Route>
+        <Route path='/add-items' element={<AddItems></AddItems>}></Route>
         <Route path='/blogs' element={<Blog></Blog>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signUp' element={<SignUp></SignUp>}></Route>
