@@ -19,10 +19,19 @@ const Navbar = () => {
         <li className='text-amber-300 font-bold'><Link to="/furniture">Furniture</Link></li>
         <li className='text-amber-300 font-bold'><Link to="/blogs">Blog</Link></li>
         <li className='text-amber-300 font-bold'><Link to="/myPortfolio">My Portfolio</Link></li>
-        <li className='text-amber-300 font-bold'><Link to="/dashboard">DashBoard</Link></li>
+
+        <li className='text-amber-300 font-bold'>{user &&  
+         <li className='text-amber-300 font-bold'><Link to="/add-items">Add Items</Link></li>}
+        </li>
+
+        <li className='text-amber-300 font-bold'>{user &&  
+         <li className='text-amber-300 font-bold'><Link to="/my-items">My Items</Link></li>}
+        </li>
+
         <li className='text-amber-300 font-bold'>{user ? 
-        <button className='btn btn-ghost' onClick={logout}>Sign Out</button>:
+        <button className='btn btn-ghost' onClick={logout}><span className='mt-4'>Sign Out</span></button>:
         <Link to="/login">Login</Link>}</li>
+
     </>
 
     return (
