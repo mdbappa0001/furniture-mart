@@ -13,6 +13,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import ManageItems from './Pages/ManageItems/ManageItems';
 import AddItems from './Pages/AddItems/AddItems';
 import MyItems from './Pages/MyItems/MyItems';
+import NotFound from './Pages/NotFound/NotFound';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
         <Route path='/blogs' element={<Blog></Blog>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signUp' element={<SignUp></SignUp>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <ToastContainer />
     </div>
