@@ -50,4 +50,4 @@ https://cafena-shop.web.app
 
 
 # Website Demo
-![CHEESE!](src/images//CAFENA.png)
+![CHEESE!](src/images/Furniture%20Mart.png)
