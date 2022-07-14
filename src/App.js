@@ -10,6 +10,7 @@ import SignUp from './Pages/Login/SignUp';
 import Navbar from './Pages/Shared/Navbar';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ManageItems from './Pages/ManageItems/ManageItems';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           </RequireAuth>
         }></Route>
 
+        <Route path='/manage-items' element={<ManageItems></ManageItems>}></Route>
         <Route path='/blogs' element={<Blog></Blog>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signUp' element={<SignUp></SignUp>}></Route>
